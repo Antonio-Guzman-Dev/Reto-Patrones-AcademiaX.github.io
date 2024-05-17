@@ -32,7 +32,7 @@ const NoteForm = () => {
                 <input 
                     className="pl-1 border-2 border-slate-500 shadow-md w-60 h-11 text-lg"
                     type="text"
-                    placeholder="Escribe un titulo"
+                    placeholder="Escribe una descripción"
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
                     required
